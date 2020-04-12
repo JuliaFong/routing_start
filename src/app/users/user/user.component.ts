@@ -24,7 +24,7 @@ export class UserComponent implements OnInit, OnDestroy {
           this.user.id = params['id'],
           this.user.name = params['name']
         }
-      )
+      );
   }
 
   ngOnDestroy() {
